@@ -32,88 +32,88 @@ The first 2 columns are the data identifiers which describe
 1.The Subject - The subject Identification
 2.The Activity - The type of activity being performed by the subject
 
-##The Measurements include mean and standard deviation of accelerometer and gyro measurements
-##for various movements. They are totally 66 selected cases namely:
+## The Measurements include mean and standard deviation of accelerometer and gyro measurements
+## for various movements. They are totally 66 selected cases namely:
 
-*tBodyAccMeanX
-*tBodyAccMeanY
-*tBodyAccMeanZ
-*tBodyAccStdX
-*tBodyAccStdY
-*tBodyAccStdZ
-*tGravityAccMeanX
-*tGravityAccMeanY
-*tGravityAccMeanZ
-*tGravityAccStdX
-*tGravityAccStdY
-*tGravityAccStdZ
-*tBodyAccJerkMeanX
-*tBodyAccJerkMeanY
-*tBodyAccJerkMeanZ
-*tBodyAccJerkStdX
-*tBodyAccJerkStdY
-*tBodyAccJerkStdZ
-*tBodyGyroMeanX
-*tBodyGyroMeanY
-*tBodyGyroMeanZ
-*tBodyGyroStdX
-*tBodyGyroStdY
-*tBodyGyroStdZ
-*tBodyGyroJerkMeanX
-*tBodyGyroJerkMeanY
-*tBodyGyroJerkMeanZ
-*tBodyGyroJerkStdX
-*tBodyGyroJerkStdY
-*tBodyGyroJerkStdZ
-*tBodyAccMagMean
-*tBodyAccMagStd
-*tGravityAccMagMean
-*tGravityAccMagStd
-*tBodyAccJerkMagMean
-*tBodyAccJerkMagStd
-*tBodyGyroMagMean
-*tBodyGyroMagStd
-*tBodyGyroJerkMagMean
-*tBodyGyroJerkMagStd
-*fBodyAccMeanX
-*fBodyAccMeanY
-*fBodyAccMeanZ
-*fBodyAccStdX
-*fBodyAccStdY
-*fBodyAccStdZ
-*fBodyAccMeanFreqX
-*fBodyAccMeanFreqY
-*fBodyAccMeanFreqZ
-*fBodyAccJerkMeanX
-*fBodyAccJerkMeanY
-*fBodyAccJerkMeanZ
-*fBodyAccJerkStdX
-*fBodyAccJerkStdY
-*fBodyAccJerkStdZ
-*fBodyAccJerkMeanFreqX
-*fBodyAccJerkMeanFreqY
-*fBodyAccJerkMeanFreqZ
-*fBodyGyroMeanX
-*fBodyGyroMeanY
-*fBodyGyroMeanZ
-*fBodyGyroStdX
-*fBodyGyroStdY
-*fBodyGyroStdZ
-*fBodyGyroMeanFreqX
-*fBodyGyroMeanFreqY
-*fBodyGyroMeanFreqZ
-*fBodyAccMagMean
-*fBodyAccMagStd
-*fBodyAccMagMeanFreq
-*fBodyBodyAccJerkMagMean
-*fBodyBodyAccJerkMagStd
-*fBodyBodyAccJerkMagMeanFreq
-*fBodyBodyGyroMagMean
-*fBodyBodyGyroMagStd
-*fBodyBodyGyroMagMeanFreq
-*fBodyBodyGyroJerkMagMean
-*fBodyBodyGyroJerkMagStd
-*fBodyBodyGyroJerkMagMeanFreq
+* tBodyAccMeanX
+* tBodyAccMeanY
+* tBodyAccMeanZ
+* tBodyAccStdX
+* tBodyAccStdY
+* tBodyAccStdZ
+* tGravityAccMeanX
+* tGravityAccMeanY
+* tGravityAccMeanZ
+* tGravityAccStdX
+* tGravityAccStdY
+* tGravityAccStdZ
+* tBodyAccJerkMeanX
+* tBodyAccJerkMeanY
+* tBodyAccJerkMeanZ
+* tBodyAccJerkStdX
+* tBodyAccJerkStdY
+* tBodyAccJerkStdZ
+* tBodyGyroMeanX
+* tBodyGyroMeanY
+* tBodyGyroMeanZ
+* tBodyGyroStdX
+* tBodyGyroStdY
+* tBodyGyroStdZ
+* tBodyGyroJerkMeanX
+* tBodyGyroJerkMeanY
+* tBodyGyroJerkMeanZ
+* tBodyGyroJerkStdX
+* tBodyGyroJerkStdY
+* tBodyGyroJerkStdZ
+* tBodyAccMagMean
+* tBodyAccMagStd
+* tGravityAccMagMean
+* tGravityAccMagStd
+* tBodyAccJerkMagMean
+* tBodyAccJerkMagStd
+* tBodyGyroMagMean
+* tBodyGyroMagStd
+* tBodyGyroJerkMagMean
+* tBodyGyroJerkMagStd
+* fBodyAccMeanX
+* fBodyAccMeanY
+* fBodyAccMeanZ
+* fBodyAccStdX
+* fBodyAccStdY
+* fBodyAccStdZ
+* fBodyAccMeanFreqX
+* fBodyAccMeanFreqY
+* fBodyAccMeanFreqZ
+* fBodyAccJerkMeanX
+* fBodyAccJerkMeanY
+* fBodyAccJerkMeanZ
+* fBodyAccJerkStdX
+* fBodyAccJerkStdY
+* fBodyAccJerkStdZ
+* fBodyAccJerkMeanFreqX
+* fBodyAccJerkMeanFreqY
+* fBodyAccJerkMeanFreqZ
+* fBodyGyroMeanX
+* fBodyGyroMeanY
+* fBodyGyroMeanZ
+* fBodyGyroStdX
+* fBodyGyroStdY
+* fBodyGyroStdZ
+* fBodyGyroMeanFreqX
+* fBodyGyroMeanFreqY
+* fBodyGyroMeanFreqZ
+* fBodyAccMagMean
+* fBodyAccMagStd
+* fBodyAccMagMeanFreq
+* fBodyBodyAccJerkMagMean
+* fBodyBodyAccJerkMagStd
+* fBodyBodyAccJerkMagMeanFreq
+* fBodyBodyGyroMagMean
+* fBodyBodyGyroMagStd
+* fBodyBodyGyroMagMeanFreq
+* fBodyBodyGyroJerkMagMean
+* fBodyBodyGyroJerkMagStd
+* fBodyBodyGyroJerkMagMeanFreq
 
 ## The Activity Labels are:
 
@@ -141,7 +141,7 @@ We merge the training and testing data, the labels & the subject datasets
  those columns from the merged dataset(of step 3)
 -we change any spacing and convert the headers to lower case while keeping the first letter of 
  the mean and std uppercase
-##Step 5:
+## Step 5:
 Next we name the activities of the dataset using the numbers 1-6 as reference and name the 
 activities with their descriptive names.
 ## Step 6:
