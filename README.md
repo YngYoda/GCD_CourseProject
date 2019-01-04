@@ -2,7 +2,7 @@
 
 ==================================================================
 
-## Set working data was ~/Documents/RStudio/datasciencecoursera/UCI HAR Dataset/
+## Working directory in my case was ~/Documents/RStudio/datasciencecoursera/UCI HAR Dataset/
 Run the run_analysis.R file in R
 
 ## While reading the txt files use read.table(..., header = TRUE)
