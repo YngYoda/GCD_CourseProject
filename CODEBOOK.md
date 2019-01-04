@@ -117,12 +117,12 @@ The first 2 columns are the data identifiers which describe
 
 ## The Activity Labels are:
 
-1.WALKING: subject was walking during the test
-2.WALKINGUPSTAIRS: subject was walking up a staircase during the test
-3.WALKINGDOWNSTAIRS: subject was walking down a staircase during the test
-4.SITTING: subject was sitting during the test
-5.STANDING: subject was standing during the test
-6.LAYING: subject was laying down during the test
+1. WALKING: subject was walking during the test
+2. WALKINGUPSTAIRS: subject was walking up a staircase during the test
+3. WALKINGDOWNSTAIRS: subject was walking down a staircase during the test
+4. SITTING: subject was sitting during the test
+5. STANDING: subject was standing during the test
+6. LAYING: subject was laying down during the test
 
 
 ==================================================================
